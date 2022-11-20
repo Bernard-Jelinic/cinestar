@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,7 +22,7 @@ body {
   flex-direction: column;
 }
 .center .header {
-  background-image: url("img/header-background.jpg");
+  background-image: url("../img/header-background.jpg");
   height: 100%;
   min-height: 85px;
   max-width: 1080px;
@@ -449,7 +449,7 @@ body {
 }
 .center .copyright-footer {
   margin-top: auto;
-  background-image: url("img/header-background.jpg");
+  background-image: url("../img/header-background.jpg");
   background-size: 1080px 85px;
   background-repeat: no-repeat;
   height: 85px;

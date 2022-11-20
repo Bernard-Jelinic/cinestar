@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   .header {
-    background-image: url("img/header-background.jpg");
+    background-image: url("../img/header-background.jpg");
     height: 100%;
     min-height: $header-hight;
     max-width: $center-width;
@@ -461,7 +461,7 @@ body {
   }
   .copyright-footer {
     margin-top: auto;
-    background-image: url("img/header-background.jpg");
+    background-image: url("../img/header-background.jpg");
     background-size: $center-width $header-hight;
     background-repeat: no-repeat;
     height: $header-hight;
