@@ -9,6 +9,7 @@ const router = new VueRouter({
 const app = new Vue({
     router,
     components: { 
-        'navbar': navbar
+        'navbar': navbar,
+        'copyright-footer': copyrightfooter
     }
 }).$mount('#app')
