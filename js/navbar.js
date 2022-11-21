@@ -1,4 +1,4 @@
-const Navbar = {
+const navbar = {
     template: `
       <nav class="header">
         <div class="zvijezda">

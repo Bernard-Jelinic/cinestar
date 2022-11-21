@@ -8,5 +8,7 @@ const router = new VueRouter({
 
 const app = new Vue({
     router,
-    components: { Navbar }
+    components: { 
+        'navbar': navbar
+    }
 }).$mount('#app')
