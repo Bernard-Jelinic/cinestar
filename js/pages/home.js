@@ -1,5 +1,10 @@
 const Home = {
+    components: {
+        'imagecontainer': imagecontainer
+    },
     template: /*html*/`
-    <div className="main-container"></div>
+    <div class="main-container">
+        <imagecontainer/>
+    </div>
     `
 }
