@@ -1,5 +1,5 @@
 const routes = [
-    { path:'', component:Home },
+    { path: '', component: Home },
 ]
 
 const router = new VueRouter({
@@ -8,7 +8,7 @@ const router = new VueRouter({
 
 const app = new Vue({
     router,
-    components: { 
+    components: {
         'navbar': navbar,
         'copyright-footer': copyrightfooter
     }
