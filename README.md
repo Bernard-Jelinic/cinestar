@@ -1,7 +1,9 @@
 # Cinestar app
 
-In this project Vue is download and included via a script tag and is registered as a global variable.
+In this project Vue is downloaded and included via a script tag and is registered as a global variable.
 Because of that there is no "build step" involved and it can't be used Single-File Component (SFC) syntax.
+You may have noticed that the imported component's template is inlined as a JavaScript string.
+Strings are prefixed with the /*html*/ comment to get syntax highlighting for them if you are using VSCode with es6-string-html extension.
 
 ## Usage
 

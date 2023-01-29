@@ -1,5 +1,5 @@
 const navbar = {
-    template: `
+  template: /*html*/`
       <nav class="header">
         <div class="zvijezda">
             <img src="img/cinestar-logotip.png" alt="CineStar" height="105" />

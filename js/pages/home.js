@@ -1,5 +1,5 @@
 const Home = {
-    template: `
+    template: /*html*/`
     <div className="main-container"></div>
     `
 }

@@ -1,11 +1,11 @@
 const copyrightfooter = {
-    template: `
+    template: /*html*/`
         <footer class="copyright-footer">
         © Copyright {{currentYear}} Bernard Jelinić
         </footer>
     `,
     computed: {
-        currentYear(){
+        currentYear() {
             return new Date().getFullYear()
         }
     }
