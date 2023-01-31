@@ -1,5 +1,5 @@
-const imagecontainer = {
-    template: /*html */`
+const ImageContainer = {
+  template: /*html */`
     <div class="image-container">
       <div class="gallery">
         <img class="main-img" src="img/imax-icon.png" alt="maxIcon" />
