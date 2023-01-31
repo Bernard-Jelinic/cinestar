@@ -1,10 +1,12 @@
 const Home = {
     components: {
-        'ImageContainer': ImageContainer
+        'ImageContainer': ImageContainer,
+        'FilterSection': FilterSection
     },
     template: /*html*/`
     <div class="main-container">
         <ImageContainer/>
+        <FilterSection/>
     </div>
     `
 }
