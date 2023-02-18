@@ -4,7 +4,8 @@ const Home = {
         'FilterSection': FilterSection,
         'CinestarName': CinestarName,
         'BoxZanrTime': BoxZanrTime,
-        'DisplayZanrTime': DisplayZanrTime
+        'DisplayZanrTime': DisplayZanrTime,
+        'DisplayData': DisplayData
     },
     template: /*html*/`
     <div class="main-container">
@@ -13,6 +14,7 @@ const Home = {
         <CinestarName/>
         <BoxZanrTime/>
         <DisplayZanrTime/>
+        <DisplayData/>
     </div>
     `
 }
