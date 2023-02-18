@@ -3,7 +3,8 @@ const Home = {
         'ImageContainer': ImageContainer,
         'FilterSection': FilterSection,
         'CinestarName': CinestarName,
-        'BoxZanrTime': BoxZanrTime
+        'BoxZanrTime': BoxZanrTime,
+        'DisplayZanrTime': DisplayZanrTime
     },
     template: /*html*/`
     <div class="main-container">
@@ -11,6 +12,7 @@ const Home = {
         <FilterSection/>
         <CinestarName/>
         <BoxZanrTime/>
+        <DisplayZanrTime/>
     </div>
     `
 }
