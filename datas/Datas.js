@@ -3,7 +3,7 @@ const movieData = [
     incoming: "incoming",
     name: "Bilo jednom... u Hollywood-u",
     engName: "Once Upon a Time in Hollywood",
-    director: "Quentin Tarantino",
+    directors: ["Quentin Tarantino"],
     actors: [
       "Leonardo DiCaprio",
       "Brad Pitt",
@@ -48,7 +48,7 @@ const movieData = [
   {
     name: "Nevidljivi čovjek",
     engName: "The Invisible Man",
-    director: "Leigh Whannell",
+    directors: ["Leigh Whannell"],
     actors: ["Elisabeth Moss", "Oliver Jackson-Cohen", "Harriet Dyer"],
     genre: ["Horor", "Sf"],
     time: ["Ponedjeljak", "Utorak", "Srijeda", "Petak", "Subota", "Nedjelja"],
@@ -82,7 +82,7 @@ const movieData = [
   {
     name: "Osvetnici: Završnica",
     engName: "Avengers: Endgame",
-    director: ["Anthony Russo", "Joe Russo"],
+    directors: ["Anthony Russo", "Joe Russo"],
     actors: [
       "Brie Larson",
       "Scarlett Johansson",
@@ -137,7 +137,7 @@ const movieData = [
     incoming: "incoming",
     name: "Sonic: Super Jež",
     engName: "Sonic the Hedgehog",
-    director: "Jeff Fowler",
+    directors: ["Jeff Fowler"],
     actors: [
       "Ben Schwartz",
       "James Marsden",
@@ -188,7 +188,7 @@ const movieData = [
     incoming: "incoming",
     name: "Zločesti dečki zauvijek",
     engName: "Bad Boys for Life",
-    director: [" Adil El Arbi", "Bilall Fallah"],
+    directors: [" Adil El Arbi", "Bilall Fallah"],
     actors: ["Will Smith", "Martin Lawrence", "Vanessa Hudgens"],
     genre: ["Akcija", "Komedija", "Kriminalistički"],
     time: [
@@ -239,7 +239,7 @@ const movieData = [
   {
     name: "Parazit",
     engName: "Gisaengchung",
-    director: "Bong Joon Ho",
+    directors: ["Bong Joon Ho"],
     actors: ["Kang-ho Song", "Sun-kyun Lee", "Yeo-jeong Jo"],
     genre: ["Komedija", "Drama"],
     time: [
@@ -292,7 +292,7 @@ const movieData = [
     incoming: "incoming",
     name: "Capone",
     engName: "Capone",
-    director: "Josh Trank",
+    directors: ["Josh Trank"],
     actors: ["Tom Hardy", "Linda Cardellini", "Matt Dillon"],
     genre: ["Kriminalistički", "Drama"],
     time: [
@@ -343,7 +343,7 @@ const movieData = [
   {
     name: "Birds of Prey i emancipacija famozne Harley Quinn",
     engName: "Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn",
-    director: "Cathy Yan",
+    directors: ["Cathy Yan"],
     actors: ["Margot Robbie", "Rosie Perez", "Mary Elizabeth Winstead"],
     genre: ["Kriminalistički", "Drama", "Akcija"],
     time: [
@@ -391,7 +391,7 @@ const movieData = [
     incoming: "incoming",
     name: "Bloodshot",
     engName: "Bloodshot",
-    director: "Dave Wilson",
+    directors: ["Dave Wilson"],
     actors: ["Vin Diesel", "Eiza González", "Sam Heughan"],
     genre: ["Sf", "Drama", "Akcija"],
     time: [
@@ -443,7 +443,7 @@ const movieData = [
   {
     name: "Black Widow",
     engName: "Black Widow",
-    director: "Cate Shortland",
+    directors: ["Cate Shortland"],
     actors: ["Florence Pugh", "Scarlett Johansson", "Robert Downey Jr."],
     genre: ["Sf", "Akcija"],
     time: ["Ponedjeljak", "Utorak", "Srijeda", "Petak", "Subota", "Nedjelja"],

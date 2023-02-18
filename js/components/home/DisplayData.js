@@ -11,9 +11,24 @@ const DisplayData = {
                 <div class="movie-desc">
                     <h2>{{data.name}}</h2>
                     <p><span>Izvorno ime: </span>{{data.engName}}</p>
-                    <p><span>Redatelj: </span>{{data.director}}</p>
-                    <p><span>Glumci: </span>{{data.actors}}</p>
-                    <p><span>Žanr: </span>{{data.genre}}</p>
+                    <p>
+                        <span>Redatelj: </span>
+                        <template v-for="(director, index) in data.directors">{{director}}
+                            <template v-if="index !== data.directors.length - 1"> - </template>
+                        </template>
+                    </p>
+                    <p>
+                        <span>Glumci: </span>
+                        <template v-for="(actor, index) in data.actors">{{actor}}
+                            <template v-if="index !== data.actors.length - 1"> - </template>
+                        </template>
+                    </p>
+                    <p>
+                        <span>Žanr: </span>
+                        <template v-for="(genre, index) in data.genre">{{genre}}
+                            <template v-if="index !== data.genre.length - 1"> - </template>    
+                        </template>
+                    </p>
                     <p><span>Trajanje: </span>{{data.duration}} min</p>
                     <p><span>Država: </span>{{data.state}}</p>
                 </div>
