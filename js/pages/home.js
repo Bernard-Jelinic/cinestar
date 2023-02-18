@@ -12,9 +12,19 @@ const Home = {
         <ImageContainer/>
         <FilterSection/>
         <CinestarName/>
-        <BoxZanrTime/>
-        <DisplayZanrTime/>
+        <BoxZanrTime @selected-first-filter="selectedFirstFilter"/>
+        <DisplayZanrTime :selectedFilter="selectedFilter"/>
         <DisplayData/>
     </div>
-    `
+    `,
+    data() {
+        return {
+            selectedFilter: ''
+        }
+    },
+    methods: {
+        selectedFirstFilter(filter) {
+            this.selectedFilter = filter
+        }
+    }
 }
