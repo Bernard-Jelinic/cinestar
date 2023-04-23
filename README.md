@@ -26,4 +26,4 @@ Select one browser from the list, and view your file in the browser.
 
 ## License
 
-The Vacation Manager app is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Cinestar app is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
